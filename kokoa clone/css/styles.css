@@ -3,9 +3,14 @@
 @import "variables.css";
 /* component */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 /* Screens */
 @import "screen/login.css";
+@import "screen/friends.css";
 
 body {
+  columns: #2e363e;
   font-family: "Open Sans", sans-serif;
 }
